@@ -1,6 +1,7 @@
-close all;
-clear;
-clc;
+% Created by David Garnica, david.garnica@med.uni-goettingen.de
+% October 2021-2022, Universitätsmedizin Göttingen, Neurology Department
+
+close all; clear; clc;
 
 analysis_dir1 = '/home/uni10/nmri/projects/dgarnica/EEG_retro_cognitive/EEG_EDF_raw/Dyslexia_Patients_edf_plus';
 analysis_dir2 = '/home/uni10/nmri/projects/dgarnica/EEG_retro_cognitive/EEG_EDF_raw/Controls_edf_plus';
