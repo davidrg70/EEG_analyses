@@ -1,8 +1,9 @@
-% DG violin plots function for power/FC global data, 10.2022
+% Created by David Garnica, david.garnica@med.uni-goettingen.de
+% October 2022, Universitätsmedizin Göttingen, Neurology Department
+
+% DG violin plots function for power/FC global data
 % using https://github.com/bastibe/Violinplot-Matlab
-clc;
-clear all;
-close all;
+clc; clear all; close all;
 
 % Define the METRIC
 analysis_dir = '/home/uni10/nmri/projects/dgarnica/EEG_retro_cognitive/Dys_noIEDs_Controls/Dys_noIEDs_Controls';
