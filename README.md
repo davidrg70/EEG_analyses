@@ -1,5 +1,5 @@
 # EEG_analyses
-Some scripts for Power Spectrum Density and EEG-cognitive correlations
+Scripts for Power Spectrum Density and EEG-cognitive correlations
 
 ** Script "dg_fft_power_spectra.m"
 This script performs Power Spectrum Density analysis of one or two groups. It implements usual MATLAB functions to calculate relative and after absolute power. Finally, plots the absolute power according to the frequency bands analyzed, and adds smoothing to the average line and 95% confidence interval area.
