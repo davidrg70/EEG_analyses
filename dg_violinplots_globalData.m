@@ -1,5 +1,5 @@
 % Created by David Garnica, david.garnica@med.uni-goettingen.de
-% October 2022, Universitätsmedizin Göttingen, Neurology Department
+% 2022, Universitätsmedizin Göttingen, Neurology Department
 
 % DG violin plots function for power/FC global data
 % using https://github.com/bastibe/Violinplot-Matlab
