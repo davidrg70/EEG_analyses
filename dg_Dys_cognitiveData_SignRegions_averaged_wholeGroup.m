@@ -1,5 +1,5 @@
 % Created by David Garnica, david.garnica@med.uni-goettingen.de
-% October 2022, Universitätsmedizin Göttingen, Neurology Department
+% 2022, Universitätsmedizin Göttingen, Neurology Department
 
 % dg_Dys_cognitiveData_SignRegions_averaged
 clear all; close all; clc;
