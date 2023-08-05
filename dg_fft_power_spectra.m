@@ -1,5 +1,5 @@
 % Created by David Garnica, david.garnica@med.uni-goettingen.de
-% October 2021-2022, Universitätsmedizin Göttingen, Neurology Department
+% 2021-2022, Universitätsmedizin Göttingen, Neurology Department
 
 close all; clear; clc;
 
