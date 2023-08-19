@@ -230,29 +230,29 @@ for k = 1:length(freq_bands)
     
     % introduce p/d values according to PALM results ('Manually')
     if contains('ImCoh', metric) && k == 2 % ImCoh Theta
-        text(0.70, 0.12, sprintf('**p=0.004, d=0.51'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.70, 0.1274, sprintf('**p<0.001, d=0.60'), 'FontSize',17);
+        errorbar(1.5, 0.12, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     elseif contains('ImCoh', metric) && k == 3 % ImCoh Alpha
-        text(0.74, 0.12, sprintf('*p=0.014, d=0.41'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.74, 0.1274, sprintf('*p=0.012, d=0.42'), 'FontSize',17);
+        errorbar(1.5, 0.12, 0.5,  'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     elseif contains('Power', metric) && k == 1 % Power Delta
-        text(0.78, 19000, sprintf('p=0.056, d=0.31'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.78, 26750, sprintf('p=0.066, d=0.29'), 'FontSize',17);
+        errorbar(1.5, 25000, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     elseif contains('Power', metric) && k == 2 % Power Theta
-        text(0.74, 36150, sprintf('*p=0.041, d=0.34'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
-    elseif contains('wPLI', metric) && k == 1 % wPLI Delta
-        text(0.72, 0.75, sprintf('p=0.089, d=0.25'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.78, 48250, sprintf('p=0.057, d=0.31'), 'FontSize',17);
+        errorbar(1.5, 45000, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
+%     elseif contains('wPLI', metric) && k == 1 % wPLI Delta
+%         text(0.72, 0.75, sprintf('p=0.089, d=0.25'), 'FontSize',17);
+%         errorbar(1.5, 0.74, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     elseif contains('wPLI', metric) && k == 2 % wPLI Theta
-        text(0.74, 0.75, sprintf('*p=0.018, d=0.40'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.70, 0.3075, sprintf('**p<0.001, d=0.62'), 'FontSize',17);
+        errorbar(1.5, 0.29, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     elseif contains('wPLI', metric) && k == 3 % wPLI Alpha
-        text(0.74, 0.75, sprintf('*p=0.048, d=0.32'), 'FontSize',17);
-        fprintf('p-value is significant for %s, and then it was plotted \n', freq_bands{k});
+        text(0.74, 0.3075, sprintf('*p=0.027, d=0.37'), 'FontSize',17);
+        errorbar(1.5, 0.29, 0.5, 'horizontal', 'color', [0.2, 0, 0], 'LineWidth', 2);
     else
         fprintf('p-value is not significant for %s, and then it was not plotted \n', freq_bands{k});
-    end    
+    end   
     
     % add y label to the first
     if k == 1
